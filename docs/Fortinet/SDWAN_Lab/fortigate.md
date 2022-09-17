@@ -4,6 +4,9 @@ hide:
 ---
 # beerbytes-osl-fw1
 
-SDWAN Hub
+Det kjører en FortiGate VM01 som SDWAN Hub i denne labben.  
 
-FortiGate VM01
+## Innlogging
+
+SDWAN hub nå på <https://fortigate.communitylab.network>  
+Innloggingsdetaljer finner man i lab guide på Teams.
