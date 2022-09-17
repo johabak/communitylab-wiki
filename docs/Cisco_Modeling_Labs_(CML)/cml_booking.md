@@ -6,14 +6,15 @@ hide:
 
 ## Informasjon om bookingsystemet
 
-Det er selvutviklet et webbasert verktøy for å reservere tid i vår fellesinstans av CML. Her kan alle i faggruppen reservere tid for lab når det skulle passe! Reservasjon er tilgjengelig 24/7, og man kan booke 5 dager frem i tid (inkludert dagen i dag), hvor dagene er delt inn i bolker på 3 timer.
+Det er selvutviklet et webbasert verktøy for å reservere tid i vår fellesinstans av CML. Her kan alle i faggruppen reservere tid for lab når det skulle passe! Reservasjon er mulig 24/7, og man kan booke 5 dager frem i tid (inkludert dagen i dag), hvor dagene er delt inn i bolker på 3 timer.
 
 [Klikk her for å gå til CML booking](https://booking.communitylab.network/){ .md-button .md-button--primary }
 
 ## Virkemåte og regler for reservasjon
 
-- Det er kun mulig å ha én (1) aktiv reservasjon. Dette for å gi alle like muligheter når det kommer til tilgang på CML.
-- Så fort aktiv reservasjon er utløpt, kan man reservere på nytt.
+- Det er kun mulig å ha én (1) aktiv reservasjon. Dette for å gi alle like muligheter når det kommer til tilgang på CML
+- Så fort aktiv reservasjon er utløpt, kan man reservere på nytt
+- Man kan reservere 5 dager frem i tid
 - Første gang man gjør en reservasjon, må man bekrefte epost-adressen
 - Etter at reservasjonen går igjennom, vil man motta en bekreftelse på dato og tidspunkt for reservasjon
 - Dersom du allikevel ikke trenger reservasjonen, **skal** du kansellere reservasjonen din
