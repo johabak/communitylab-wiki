@@ -19,6 +19,11 @@ theme:
 markdown_extensions:
   - attr_list
 
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/ctvedt/communitylab-wiki/
+
 site_name: 'Community Network - Community Lab'
 
 nav:
