@@ -39,7 +39,7 @@ nav:
     - Cisco_Modeling_Labs_(CML)/laboppgaver.md
   - Fortinet:
     - Fortinet/index.md
-    - SDWAN Lab:
+    - SD-WAN Lab:
       - Fortinet/SDWAN_Lab/index.md
       - Fortinet/SDWAN_Lab/fortimanager.md
       - Fortinet/SDWAN_Lab/fortigate.md

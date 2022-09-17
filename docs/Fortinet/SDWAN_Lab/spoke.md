@@ -8,4 +8,4 @@ Det er satt opp en FortiGate 40F som spoke i miljøet, denne er tilgjengelig 24/
 
 ## Innlogging
 
-Per nå er ikke denne tilgjengelig fra utsiden, kun fra innsiden av SDWAN miljøet, slik som beskrevet i labguide. Det jobbes derimot med å tilgjengeliggjøre virtuelle klienter tilkoblet både LAN og ADMIN på spoke `46`, slik at man enklere kan verifisere og feilsøke.
+Per nå er ikke denne tilgjengelig fra utsiden, kun fra innsiden av SD-WAN miljøet, slik som beskrevet i labguide. Det jobbes derimot med å tilgjengeliggjøre virtuelle klienter tilkoblet både LAN og ADMIN på spoke `46`, slik at man enklere kan verifisere og feilsøke.
