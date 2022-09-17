@@ -37,3 +37,10 @@ nav:
     - Cisco_Modeling_Labs_(CML)/index.md
     - Cisco_Modeling_Labs_(CML)/cml_booking.md
     - Cisco_Modeling_Labs_(CML)/laboppgaver.md
+  - Fortinet:
+    - Fortinet/index.md
+    - SDWAN Lab:
+      - Fortinet/SDWAN_Lab/index.md
+      - Fortinet/SDWAN_Lab/fortimanager.md
+      - Fortinet/SDWAN_Lab/fortigate.md
+      - Fortinet/SDWAN_Lab/spoke.md
