@@ -44,3 +44,7 @@ nav:
       - Fortinet/SDWAN_Lab/fortimanager.md
       - Fortinet/SDWAN_Lab/fortigate.md
       - Fortinet/SDWAN_Lab/spoke.md
+  - Aruba:   
+    - Aruba/index.md
+    - Aruba Clearpass:
+      - Aruba/Clearpass/clearpass.md
