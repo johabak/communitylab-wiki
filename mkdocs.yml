@@ -20,3 +20,9 @@ markdown_extensions:
   - attr_list
 
 site_name: 'Community Network - Community Lab'
+
+nav:
+  - Informasjon om Community Lab:
+    - Informasjon/info.md
+    - Informasjon/bidra.md
+    - Informasjon/kontakt.md
