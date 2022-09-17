@@ -4,9 +4,13 @@ hide:
 ---
 # Community Lab
 
-Her finner du litt teknisk informasjon om vår Community Lab!
+## Hensikt
+
+Hensikten med Community Lab er å gjøre det mye enklere for alle våre konsulenter å ha tilgang til labmiljø for læring, POC og sertifiseringer. I tillegg prøver vi å holde liv i alle labmiljøene vi har satt opp i samarbeid med våre partnere som Fortigate og Aruba.
 
 ## Hardware
+
+Her finner du litt teknisk informasjon om vår Community Lab!
 
 <figure markdown>
   ![Image title](/images/nuc.png){ width="500" }
