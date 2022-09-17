@@ -9,11 +9,13 @@ Her finner du litt teknisk informasjon om vår Community Lab!
 ## Hardware
 
 <figure markdown>
-  ![Image title](/docs/Informasjon/nuc.png/){ width="500" }
+  ![Image title](/images/nuc.png){ width="500" }
   <figcaption>Intel NUC10I7FNHN2</figcaption>
 </figure>
 
 I første omgang har vi kun én Intel NUC til å betjene Community Lab, men dersom det blir et reelt behov for mer kapasitet etterhvert, får vi vurdere å utvide. Vi jobber også mot en løsning for å få en tenant hos DPSO som vi betjener selv.
+
+### Spesifikasjoner
 
 |           | Beskrivelse                          |
 | --------- | ------------------------------------ |
