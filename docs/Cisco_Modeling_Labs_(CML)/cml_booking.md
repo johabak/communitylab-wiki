@@ -25,6 +25,6 @@ Det er selvutviklet et webbasert verktøy for å reservere tid i vår fellesinst
 
 ## Nysgjerrig på bookingsystemet?
 
-Websiden er skrevet i Python og benytter rammeverket Django. All kildekode ligger åpent på GitLab, og du må gjerne bidra til videreutvikling ved å opprette en pull request! 
+Websiden er skrevet i Python og benytter rammeverket Django. All kildekode ligger åpent på GitHub, og du må gjerne bidra til videreutvikling ved å opprette en pull request! 
 
 [Kildekode til bookingsystemet](https://github.com/ctvedt/cml-booking/){ .md-button .md-button--primary }
