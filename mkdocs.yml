@@ -24,7 +24,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/ctvedt/communitylab-wiki/
+      link: https://github.com/johabak/communitylab-wiki/
 
 site_name: 'Community Network - Community Lab'
 
@@ -38,14 +38,14 @@ nav:
     - Cisco_Modeling_Labs_(CML)/index.md
     - Cisco_Modeling_Labs_(CML)/cml_booking.md
     - Cisco_Modeling_Labs_(CML)/laboppgaver.md
-  - Fortinet:
-    - Fortinet/index.md
-    - SD-WAN Lab:
-      - Fortinet/SDWAN_Lab/index.md
-      - Fortinet/SDWAN_Lab/fortimanager.md
-      - Fortinet/SDWAN_Lab/fortigate.md
-      - Fortinet/SDWAN_Lab/spoke.md
-  - Aruba:   
-    - Aruba/index.md
-    - Aruba Clearpass:
-      - Aruba/Clearpass/clearpass.md
+#  - Fortinet:
+#    - Fortinet/index.md
+#    - SD-WAN Lab:
+#      - Fortinet/SDWAN_Lab/index.md
+#      - Fortinet/SDWAN_Lab/fortimanager.md
+#      - Fortinet/SDWAN_Lab/fortigate.md
+#      - Fortinet/SDWAN_Lab/spoke.md
+#  - Aruba:   
+#    - Aruba/index.md
+#    - Aruba Clearpass:
+#      - Aruba/Clearpass/clearpass.md

@@ -27,4 +27,5 @@ Det er selvutviklet et webbasert verktøy for å reservere tid i vår fellesinst
 
 Websiden er skrevet i Python og benytter rammeverket Django. All kildekode ligger åpent på GitHub, og du må gjerne bidra til videreutvikling ved å opprette en pull request! 
 
-[Kildekode til bookingsystemet](https://github.com/ctvedt/cml-booking/){ .md-button .md-button--primary }
+Orginal versjon (2022) [Kildekode til bookingsystemet](https://github.com/ctvedt/cml-booking/){ .md-button .md-button--primary }
+Forket versjon (2025) [Kildekode til bookingsystemet](https://github.com/johabak/cml-booking/){ .md-button .md-button--primary }

@@ -10,6 +10,14 @@ Hensikten med Community Lab er å gjøre det mye enklere for alle våre konsulen
 
 ## Hardware
 
+## OS
+
+## Annet
+
+
+
+# HISTORIKK
+
 Her finner du litt teknisk informasjon om vår Community Lab!
 
 <figure markdown>

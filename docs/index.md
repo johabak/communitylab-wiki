@@ -14,5 +14,5 @@ Benytt `Lab`-kanalen i vår Teams-gruppe dersom du har noen spørsmål!
 
 ## Kontaktpersoner
 
-- Christopher W. Tvedt (Hovedansvarlig)
-- Stian Negård
+- Johan Bakken
+- Monica Lunde
