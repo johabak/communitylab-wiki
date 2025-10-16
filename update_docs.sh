@@ -7,7 +7,7 @@ git checkout main
 git pull --ff-only origin main
 
 # 2) Bygg MkDocs -> ./site (rens opp gamle filer)
-docker run --rm \
+sudo docker run --rm \
   -v "$(pwd)":/docs \
   --user "$(id -u)":"$(id -g)" \
   squidfunk/mkdocs-material \
