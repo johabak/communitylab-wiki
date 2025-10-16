@@ -1,6 +1,13 @@
 version: '3.7'
 
 services:
+  builder:
+    image: squidfunk/mkdocs-material
+    working_dir: /docs
+    volumes:
+      - ./:/docs
+    command: mkdocs build --clean   # skriver til ./site/
+
   communitylab_docs:
     image: nginx
     restart: always
