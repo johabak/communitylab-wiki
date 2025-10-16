@@ -16,5 +16,3 @@ Benytt `Lab`-kanalen i vår Teams-gruppe dersom du har noen spørsmål!
 
 - Johan Bakken
 - Monica Lunde
-
-Testing auto update
