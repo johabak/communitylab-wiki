@@ -38,6 +38,9 @@ nav:
     - Cisco_Modeling_Labs_(CML)/index.md
     - Cisco_Modeling_Labs_(CML)/cml_booking.md
     - Cisco_Modeling_Labs_(CML)/laboppgaver.md
+  - Zscaler:
+    - Zscaler/index.md
+    - Zscaler/zscaler_lab.md
 #  - Fortinet:
 #    - Fortinet/index.md
 #    - SD-WAN Lab:
