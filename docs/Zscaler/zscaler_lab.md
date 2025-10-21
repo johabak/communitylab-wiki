@@ -3,7 +3,8 @@ hide:
   - footer
 ---
 
-## Zscaler Solutions Demo Center
+# Zscaler Solutions Demo Center
+
 Få tilgang til Zscaler Solutions Demo Center i 30 dager. Etter 30 dager er det mulig å forye så mange ganger man ønsker.
 Her kan du utforske plattformen i ditt eget tempo, uten risiko eller forpliktelser.
 
