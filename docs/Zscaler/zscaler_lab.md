@@ -8,7 +8,8 @@ hide:
 Få tilgang til Zscaler Solutions Demo Center i 30 dager. Etter 30 dager er det mulig å forye så mange ganger man ønsker.
 Her kan du utforske plattformen i ditt eget tempo, uten risiko eller forpliktelser.
 
-For tilgang til Zscaler demo-miljø:
+## For tilgang til Zscaler demo-miljø
+
 1. Logg inn her: https://partners.zscaler.com/
 2. Gå til Demo, deretter Solutions Demo Center > Klikk Submit.
 3. Etter kort tid mottar du en e-post med instruksjoner og påloggingsinformasjon.
