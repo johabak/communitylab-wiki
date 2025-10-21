@@ -23,9 +23,11 @@ Det er selvutviklet et webbasert verktøy for å reservere tid i vår fellesinst
   `PS: det er veldig lett å finne ut hvem som byttet passord og ødela for alle andre! :)`
 - Når din reserverte tid er over, vil du motta en epost som informerer om at din reservasjon er over. I denne eposten vil alle labber du har opprettet i løpet av de 3 timene være vedlagt som vedlegg, slik at det er veldig enkelt å importere disse neste gang og starte akkurat der du var!
 
+
 ## Nysgjerrig på bookingsystemet?
 
 Websiden er skrevet i Python og benytter rammeverket Django. All kildekode ligger åpent på GitHub, og du må gjerne bidra til videreutvikling ved å opprette en pull request! 
 
 Orginal versjon (2022) [Kildekode til bookingsystemet](https://github.com/ctvedt/cml-booking/){ .md-button .md-button--primary }
+
 Forket versjon (2025) [Kildekode til bookingsystemet](https://github.com/johabak/cml-booking/){ .md-button .md-button--primary }

@@ -16,6 +16,6 @@ For generell informasjon om CML, henvises det til Cisco sin dokumentasjon.
 
 ## Vår CML installasjon
 
-Vår felles instans er lisensiert for 20 noder og kjøres som en VM med 32GB minne og 8 vCPU.
+Vår felles instans er lisensiert for 20 noder og kjøres som en VM.
 
 Du finner vår CML på <https://cml.communitylab.network/>, innlogging er unik per booking og booking skjer via <https://booking.communitylab.network/>! Se egen side for mer informasjon om bookingssystemet.
