@@ -33,5 +33,3 @@ Community Lab startet som et prosjekt av tidligere Competancy Lead Christopher W
 | Lagring   | 2TB Kingston NV1 M.2 NVMe SSD        |
 
 Det ble kjørt på ESXi 7.0 på Community Lab NUC
-
-test
