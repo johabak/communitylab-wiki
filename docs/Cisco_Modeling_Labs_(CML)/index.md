@@ -2,6 +2,7 @@
 hide:
   - footer
 ---
+
 # Informasjon om CML
 
 ## Hva er CML?
