@@ -41,6 +41,9 @@ nav:
   - Zscaler:
     - Zscaler/index.md
     - Zscaler/zscaler_lab.md
+  - Illumio:
+    - Illumio/index.md
+    - Illumio/hjemmelab.md
 #  - Fortinet:
 #    - Fortinet/index.md
 #    - SD-WAN Lab:
