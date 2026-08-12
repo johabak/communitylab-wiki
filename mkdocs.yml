@@ -18,6 +18,7 @@ theme:
     - navigation.tabs.sticky
 
 markdown_extensions:
+  - admonition
   - attr_list
   - md_in_html
   - tables
@@ -34,28 +35,29 @@ repo_url: https://github.com/johabak/communitylab-wiki/
 
 nav:
   - Hjem: index.md
-  - Informasjon om Community Lab:
-    - Informasjon/info.md
-    - Informasjon/status.md
-    - Informasjon/bidra.md
-    - Informasjon/kontakt.md
-  - Cisco Modeling Labs (CML):
-    - Cisco_Modeling_Labs_(CML)/index.md
-    - Cisco_Modeling_Labs_(CML)/cml_booking.md
-    - Cisco_Modeling_Labs_(CML)/laboppgaver.md
-  - Zscaler:
-    - Zscaler/index.md
-    - Zscaler/zscaler_lab.md
-  - Illumio:
-    - Illumio/index.md
-#  - Fortinet:
-#    - Fortinet/index.md
-#    - SD-WAN Lab:
-#      - Fortinet/SDWAN_Lab/index.md
-#      - Fortinet/SDWAN_Lab/fortimanager.md
-#      - Fortinet/SDWAN_Lab/fortigate.md
-#      - Fortinet/SDWAN_Lab/spoke.md
-#  - Aruba:   
-#    - Aruba/index.md
-#    - Aruba Clearpass:
-#      - Aruba/Clearpass/clearpass.md
+  - Om Community Lab:
+    - Om tilbudet: Informasjon/info.md
+    - Status: Informasjon/status.md
+    - Bidra: Informasjon/bidra.md
+    - Kontakt og hjelp: Informasjon/kontakt.md
+  - Labmiljøer:
+    - Cisco Modeling Labs:
+      - Om CML: Cisco_Modeling_Labs_(CML)/index.md
+      - Reservasjon: Cisco_Modeling_Labs_(CML)/cml_booking.md
+      - Laboppgaver: Cisco_Modeling_Labs_(CML)/laboppgaver.md
+    - Zscaler:
+      - Om Zscaler-miljøet: Zscaler/index.md
+      - Kom i gang: Zscaler/zscaler_lab.md
+    - Illumio:
+      - Status og planlagt innhold: Illumio/index.md
+  - Arkiverte miljøer:
+    - Fortinet:
+      - Oversikt: Fortinet/index.md
+      - SD-WAN-lab:
+        - Om miljøet: Fortinet/SDWAN_Lab/index.md
+        - FortiManager: Fortinet/SDWAN_Lab/fortimanager.md
+        - FortiGate-hub: Fortinet/SDWAN_Lab/fortigate.md
+        - FortiGate-spoke: Fortinet/SDWAN_Lab/spoke.md
+    - Aruba:
+      - Oversikt: Aruba/index.md
+      - Aruba ClearPass: Aruba/Clearpass/clearpass.md

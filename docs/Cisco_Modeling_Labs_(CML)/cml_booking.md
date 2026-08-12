@@ -2,32 +2,65 @@
 hide:
   - footer
 ---
+
 # Reservasjon av CML
 
-## Informasjon om bookingsystemet
+CML bruker et egenutviklet bookingsystem. Du kan reservere én tretimersperiode om gangen, inntil fem dager frem i tid.
 
-Det er selvutviklet et webbasert verktøy for å reservere tid i vår fellesinstans av CML. Her kan alle i faggruppen reservere tid for lab når det skulle passe! Reservasjon er mulig 24/7, og man kan booke 5 dager frem i tid (inkludert dagen i dag), hvor dagene er delt inn i bolker på 3 timer.
+[Åpne CML-booking](https://booking.communitylab.network/){ .md-button .md-button--primary }
 
-[Klikk her for å gå til CML booking](https://booking.communitylab.network/){ .md-button .md-button--primary }
+## Kort fortalt
 
-## Virkemåte og regler for reservasjon
+- Du kan ha én aktiv reservasjon.
+- En reservasjon varer i tre timer.
+- Du kan reservere inntil fem dager frem i tid, inkludert dagens dato.
+- Første reservasjon krever bekreftelse av e-postadressen.
+- Innloggingsinformasjon sendes når reservasjonen starter.
+- Du må avbestille hvis du ikke skal bruke reservasjonen.
+- Du skal aldri endre det tildelte passordet.
 
-- Det er kun mulig å ha én (1) aktiv reservasjon. Dette for å gi alle like muligheter når det kommer til tilgang på CML
-- Så fort aktiv reservasjon er utløpt, kan man reservere på nytt
-- Man kan reservere 5 dager frem i tid
-- Første gang man gjør en reservasjon, må man bekrefte epost-adressen
-- Etter at reservasjonen går igjennom, vil man motta en bekreftelse på dato og tidspunkt for reservasjon
-- Dersom du allikevel ikke trenger reservasjonen, **skal** du kansellere reservasjonen din
-- Når din reservasjon starter, vil du motta epost med påloggingsinformasjon
-- Du skal **ALDRI** bytte passordet du har mottatt, da dette ødelegger reservasjonssystemet  
-  `PS: det er veldig lett å finne ut hvem som byttet passord og ødela for alle andre! :)`
-- Når din reserverte tid er over, vil du motta en epost som informerer om at din reservasjon er over. I denne eposten vil alle labber du har opprettet i løpet av de 3 timene være vedlagt som vedlegg, slik at det er veldig enkelt å importere disse neste gang og starte akkurat der du var!
+## Slik reserverer du
 
+1. Åpne bookingsystemet.
+2. Velg en ledig dato og tidsperiode.
+3. Oppgi e-postadressen din og fullfør reservasjonen.
+4. Bekreft e-postadressen dersom dette er første gang du bruker systemet.
+5. Kontroller at du mottar en bekreftelse med dato og tidspunkt.
 
-## Nysgjerrig på bookingsystemet?
+## Når reservasjonen starter
 
-Websiden er skrevet i Python og benytter rammeverket Django. All kildekode ligger åpent på GitHub, og du må gjerne bidra til videreutvikling ved å opprette en pull request! 
+Du mottar en e-post med påloggingsinformasjon når perioden begynner. Bruk denne til å logge inn på <https://cml.communitylab.network/>.
 
-Original versjon (2022): [Kildekode til bookingsystemet](https://github.com/ctvedt/cml-booking/){ .md-button .md-button--primary }
+!!! warning "Ikke endre passordet"
+    Reservasjonssystemet er avhengig av at det tildelte passordet forblir uendret. Endring av passordet kan hindre senere brukere i å logge inn.
 
-Forgrenet versjon (2025): [Kildekode til bookingsystemet](https://github.com/johabak/cml-booking/){ .md-button .md-button--primary }
+## Når reservasjonen avsluttes
+
+Når perioden er over, mottar du en e-post som informerer om at reservasjonen er avsluttet. Labber som ble opprettet i perioden, blir lagt ved slik at de kan importeres ved en senere reservasjon.
+
+Kontroller at du har mottatt eller eksportert arbeid du vil beholde.
+
+## Avbestilling
+
+Avbestill reservasjonen så tidlig som mulig hvis du ikke skal bruke den. Da blir tidsperioden tilgjengelig for andre.
+
+## Vanlige problemer
+
+### Jeg mottar ikke e-post
+
+Kontroller søppelpost og at e-postadressen er skrevet riktig. Meld problemet i `Lab`-kanalen dersom e-posten fortsatt mangler.
+
+### Jeg kommer ikke inn i CML
+
+Kontroller at reservasjonen har startet, at du bruker informasjonen fra den siste e-posten, og at adressen er <https://cml.communitylab.network/>.
+
+### Jeg trenger mer tid
+
+Du kan opprette en ny reservasjon når den aktive reservasjonen er utløpt. Ta vare på labfilene slik at arbeidet kan importeres igjen.
+
+## Om bookingsystemet
+
+Bookingsystemet er skrevet i Python med Django. Kildekoden er tilgjengelig på GitHub:
+
+- [Original versjon fra 2022](https://github.com/ctvedt/cml-booking/)
+- [Forgrenet versjon fra 2025](https://github.com/johabak/cml-booking/)

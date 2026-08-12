@@ -2,11 +2,14 @@
 hide:
   - footer
 ---
-# beerbytes-osl-fw1
 
-Det kjører en FortiGate VM01 som SD-WAN Hub i denne labben.  
+# FortiGate SD-WAN-hub
 
-## Innlogging
+Den opprinnelige laben brukte en virtuell FortiGate VM01 som SD-WAN-hub. Det interne navnet var `beerbytes-osl-fw1`.
 
-SD-WAN hub nå på <https://fortigate.communitylab.network>  
-Innloggingsdetaljer finner man i lab guide på Teams.
+## Arkivert tilgangsinformasjon
+
+Miljøet var tilgjengelig på <https://fortigate.communitylab.network>. Innloggingsinformasjonen ble distribuert gjennom labguiden i Teams.
+
+!!! warning "Status er ikke bekreftet"
+    Denne siden er ikke publisert i hovedmenyen. Kontroller at tjenesten fortsatt er i drift før adressen eller labguiden tas i bruk.

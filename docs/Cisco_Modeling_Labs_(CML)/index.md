@@ -3,20 +3,54 @@ hide:
   - footer
 ---
 
-# Informasjon om CML
+# Cisco Modeling Labs
 
-## Hva er CML?
+Cisco Modeling Labs (CML) er en webbasert plattform for simulering av nettverk. Den kan brukes til å bygge topologier, teste konfigurasjon og øve på nettverksteknologi uten fysisk utstyr.
 
-CML står for Cisco Modeling Labs og er en plattform for å simulere nettverksutstyr, da hovedsakelig Cisco-utstyr. Det er en webbasert plattform som er veldig brukervennlig, samtidig som den er fleksibel.
+## Kort fortalt
 
-## Dokumentasjon for CML
+| Egenskap | Informasjon |
+| --- | --- |
+| Status | Tilgjengelig via reservasjon |
+| Kapasitet | Lisensiert for inntil 20 noder |
+| Tilgang | Personlig innlogging sendes når reservasjonen starter |
+| Reservasjonslengde | 3 timer |
+| Passer for | Nettverkslab, feilsøking og sertifiseringsøving |
 
-For generell informasjon om CML, henvises det til Cisco sin dokumentasjon.
+[Reserver tid i CML](cml_booking.md){ .md-button .md-button--primary }
+[Åpne CML](https://cml.communitylab.network/){ .md-button }
 
-[Klikk her for å gå til CML dokumentasjon](https://developer.cisco.com/docs/modeling-labs/){ .md-button .md-button--primary }
+## Hva kan du bruke CML til?
 
-## Vår CML installasjon
+- bygge og dokumentere nettverkstopologier;
+- teste ruting, svitsjing og andre nettverksfunksjoner;
+- øve på konfigurasjon og feilsøking;
+- importere og eksportere labtopologier;
+- gjennomføre egne eller delte laboppgaver.
 
-Vår felles instans er lisensiert for 20 noder og kjøres som en VM.
+## Før du begynner
 
-Du finner vår CML på <https://cml.communitylab.network/>, innlogging er unik per booking og booking skjer via <https://booking.communitylab.network/>! Se egen side for mer informasjon om bookingssystemet.
+Du bør ha grunnleggende forståelse av IP-adressering og nettverkskonfigurasjon. Hvilke forkunnskaper som ellers kreves, avhenger av laboppgaven.
+
+1. [Reserver en ledig tidsperiode](cml_booking.md).
+2. Vent på e-posten med påloggingsinformasjon.
+3. Logg inn på <https://cml.communitylab.network/> når reservasjonen starter.
+4. Opprett en ny lab eller importer en tidligere eksportert topologi.
+5. Eksporter arbeid du vil ta vare på før reservasjonen avsluttes.
+
+## Viktige begrensninger
+
+- Installasjonen er lisensiert for maksimalt 20 aktive noder.
+- Du skal ikke endre det tildelte passordet.
+- Tilgangen gjelder bare i perioden du har reservert.
+- Følg reservasjonssystemets regler slik at miljøet forblir tilgjengelig for andre.
+
+## Dokumentasjon og oppgaver
+
+- [Cisco CML-dokumentasjon](https://developer.cisco.com/docs/modeling-labs/)
+- [Forslag til laboppgaver](laboppgaver.md)
+- [Regler og veiledning for reservasjon](cml_booking.md)
+
+## Hjelp
+
+Meld problemer i `Lab`-kanalen i Teams. Oppgi tidspunktet for reservasjonen og hva som feilet, men ikke del passordet du har fått tilsendt.

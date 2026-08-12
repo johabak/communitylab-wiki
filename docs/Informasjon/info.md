@@ -2,34 +2,73 @@
 hide:
   - footer
 ---
-# Community Lab
-Her finner du litt teknisk informasjon om vår Community Lab!
 
-## Hensikt
+# Om Community Lab
 
-Hensikten med Community Lab er å gjøre det mye enklere for alle våre konsulenter å ha tilgang til labmiljø for læring, POC-er og sertifiseringer. I tillegg prøver vi å holde liv i alle labmiljøene vi har satt opp i samarbeid med partnere som Fortinet og Aruba.
+Community Lab gir nettverkskonsulenter i Sopra Steria tilgang til felles labmiljøer for læring, sertifisering, testing og proof of concept (POC).
 
+## Hvem er tilbudet for?
+
+Tilbudet er laget for konsulenter som ønsker å:
+
+- prøve produkter og teknologier uten å bygge et eget miljø;
+- øve til sertifiseringer;
+- teste konfigurasjon og design;
+- dele laboppgaver og erfaringer med andre;
+- videreføre miljøer etablert sammen med teknologipartnere.
+
+Tilgang og kapasitet varierer mellom miljøene. Se den enkelte labsiden før du begynner.
 
 ## Dagens løsning
-Vi har fått etablert dagens løsning i Sopra Sterias TechEdge-lab. Laben er satt opp og driftes i Sopra Sterias lokaler, slik at vi slipper lokal drift hjemme. TechEdge-laben bruker Nutanix-hypervisorer. Her har vi per nå to VM-er: én for CML-instansen og én Linux-server for blant annet bookingløsningen og denne wikien.
 
-Cloudflare håndterer DNS og trafikkstyring. Cloudflare Zero Trust beskytter de interne applikasjonene slik at bare autoriserte brukere får tilgang.
+Community Lab er etablert i Sopra Sterias TechEdge-lab og driftes i Sopra Sterias lokaler. Det gjør at sentrale tjenester ikke er avhengige av lokal drift hjemme.
 
-Vi ønsker å utvide tilbudet og trenger derfor innspill til hvilke tjenester det kan være nyttig å etablere!
+TechEdge-laben bruker Nutanix-hypervisorer. Community Lab har per nå to virtuelle maskiner:
 
+- én VM for Cisco Modeling Labs (CML);
+- én Linux-server for blant annet bookingløsningen og denne wikien.
+
+Cloudflare håndterer DNS og trafikkstyring. Cloudflare Zero Trust beskytter interne applikasjoner slik at bare autoriserte brukere får tilgang.
+
+## Forenklet arkitektur
+
+```text
+Bruker
+  │
+  ▼
+Cloudflare og Zero Trust
+  │
+  ├── Wiki og bookingtjeneste
+  │
+  └── Tilgang til labmiljøer
+          │
+          └── Cisco Modeling Labs og øvrige tjenester
+```
+
+Diagrammet er en forenklet oversikt og inneholder ikke nettverks- eller sikkerhetsdetaljer.
+
+## Tilgang og sikkerhet
+
+- Bruk bare kontoer og tilganger som er tildelt deg.
+- Ikke endre delte passord med mindre veiledningen uttrykkelig ber om det.
+- Ikke publiser påloggingsinformasjon i wikien, GitHub eller Teams.
+- Rydd opp egne tester når laboppgaven er ferdig.
+- Meld sikkerhetsproblemer direkte til kontaktpersonene, ikke i en åpen kanal.
 
 ## Historikk
-Community Lab startet som et prosjekt av tidligere Competency Lead Christopher W. Tvedt. Den første utgaven av miljøet ble etablert i hans hjemmenett. Løsningen besto av en Intel NUC som kjørte de forskjellige serverrollene, og et sett med FortiGate 40F for VDOM og SD-WAN Lab Spoke.
+
+Community Lab startet som et prosjekt av tidligere Competency Lead Christopher W. Tvedt. Den første utgaven ble etablert i hjemmenettverket hans. Løsningen besto av en Intel NUC som kjørte de forskjellige serverrollene, og et sett med FortiGate 40F for VDOM- og SD-WAN-lab.
 
 <figure markdown>
-  ![Image title](../images/nuc.png){ width="500" }
+  ![Intel NUC brukt i den første versjonen av Community Lab](../images/nuc.png){ width="500" }
   <figcaption>Intel NUC10I7FNHN2</figcaption>
 </figure>
 
-|           | Beskrivelse                          |
-| --------- | ------------------------------------ |
-| CPU	      | 6 kjerner Intel Core i7 10710U       |
-| Minne     | 64GB Kingston Fury Impact DDR4       |
-| Lagring   | 2TB Kingston NV1 M.2 NVMe SSD        |
+| Komponent | Beskrivelse |
+| --- | --- |
+| CPU | 6-kjerners Intel Core i7-10710U |
+| Minne | 64 GB Kingston Fury Impact DDR4 |
+| Lagring | 2 TB Kingston NV1 M.2 NVMe SSD |
+| Plattform | VMware ESXi 7.0 |
 
-Det ble kjørt på ESXi 7.0 på Community Lab NUC
+Community Lab er senere flyttet fra denne lokale løsningen til TechEdge-laben.

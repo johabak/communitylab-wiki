@@ -2,11 +2,14 @@
 hide:
   - footer
 ---
+
 # FortiManager
 
-For administrasjon av SD-WAN miljøet finnes det en FortiManager som kjører på en virtuell maskin. Mer informasjon om FortiManager og dens rolle i dette miljøet finner man i labguide.
+FortiManager ble brukt til sentral administrasjon av SD-WAN-miljøet. Den opprinnelige labguiden beskriver rollen og oppgavene som ble utført i workshopen.
 
-## Innlogging
+## Arkivert tilgangsinformasjon
 
-FortiManager er tilgjengeliggjort på <https://fortimanager.communitylab.network>  
-Innloggingsdetaljer finner man i lab guide på Teams.
+Tjenesten var tilgjengelig på <https://fortimanager.communitylab.network>. Innloggingsinformasjonen ble distribuert gjennom labguiden i Teams.
+
+!!! warning "Status er ikke bekreftet"
+    Denne siden er ikke publisert i hovedmenyen. Kontroller at tjenesten fortsatt er i drift før adressen eller labguiden tas i bruk.

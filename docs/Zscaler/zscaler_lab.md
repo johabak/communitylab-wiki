@@ -3,63 +3,71 @@ hide:
   - footer
 ---
 
-# Zscaler Solutions Demo Center
+# Kom i gang med Zscaler Solutions Demo Center
 
-Få tilgang til Zscaler Solutions Demo Center i 30 dager. Etter 30 dager er det mulig å forye så mange ganger man ønsker.
-Her kan du utforske plattformen i ditt eget tempo, uten risiko eller forpliktelser.
+Solutions Demo Center gir deg et ferdig Zscaler-miljø i 30 dager. Tilgangen kan fornyes og lar deg utforske plattformen uten å bygge et eget miljø.
 
-## For tilgang til Zscaler demo-miljø
+## Bestill tilgang
 
-1. Logg inn her: https://partners.zscaler.com/
-2. Gå til Demo, deretter Solutions Demo Center > Klikk Submit.
-3. Etter kort tid mottar du en e-post med instruksjoner og påloggingsinformasjon.
-4. E-posten vil inkludere påloggingsinformasjon for administratorportalene og seks ulike sluttbrukerprofiler som kan brukes i demonstrasjonene.
+1. Logg inn i [Zscalers partnerportal](https://partners.zscaler.com/s/).
+2. Gå til **Demo** og deretter **Solutions Demo Center**.
+3. Velg **Submit** for å bestille tilgang.
+4. Vent på e-posten med administratorbrukere og seks sluttbrukerprofiler.
+5. Oppbevar e-posten sikkert. Ikke del påloggingsinformasjonen.
 
+Menynavnene kan bli endret av Zscaler. Bruk partnerportalens søk eller hjelp dersom valgene ikke lenger ligger på samme sted.
 
-## Nyttige lenker:
+## Portaler
 
-[Partner Portal](https://partners.zscaler.com/s/){ .md-button .md-button--primary }
+| Portal | Formål | Typisk bruker |
+| --- | --- | --- |
+| [Solutions Demo Center](https://sdc.zslogin.net/portal) | Startside for demonstrasjonsmiljøet | Administrator |
+| [ZPA Admin](https://admin.private.zscaler.com/) | Privat applikasjonstilgang | Administrator |
+| [ZIA Admin](https://admin.zscalerthree.net/) | Internett- og sikkerhetspolicy | Administrator |
+| [ZDX Admin](https://admin.zdxcloud.net/zdx/login) | Digital brukeropplevelse | Administrator |
+| [Zscaler Deception](https://zerotrust.illusionblack.com/) | Administrasjon av deception-funksjoner | Administrator |
+| [Privileged Remote Access](https://ot.thezerotrustexchange.com/) | Privilegert ekstern tilgang | Sluttbruker |
+| [Browser Based Access](https://userportal.thezerotrustexchange.com/) | Klientløs tilgang til applikasjoner | Sluttbruker |
 
-[E-læringskurs for Solutions Demo Center](https://partneracademy.zscaler.com/zscaler-for-users-the-solutions-demo-center){ .md-button .md-button--primary }
+## Forslag til læringsløp
 
-[Zscaler Help Portal](https://help.zscaler.com/){ .md-button .md-button--primary }
+1. Logg inn på startsiden og gjør deg kjent med miljøoversikten.
+2. Undersøk eksisterende brukere, applikasjoner og policyer uten å gjøre endringer.
+3. Sammenlign hvilke funksjoner som administreres i ZIA, ZPA og ZDX.
+4. Logg inn som en sluttbruker i et privat nettleservindu.
+5. Test en av de tilgjengelige tilgangsmetodene.
+6. Dokumenter hva brukeren opplever, og hvilken policy som påvirker resultatet.
 
-[Guided Tour of the Zscaler Solutions Demo Center](https://labguides.thezerotrustexchange.com/sdc-guided-tour/){ .md-button .md-button--primary }
+## Last ned Client Connector
 
-[Solution Demo Center Catalog](https://catalog.thezerotrustexchange.com/){ .md-button .md-button--primary }
+Client Connector lastes ned fra ZIA-administrasjonsportalen:
 
-[Study guide for ZDTA](https://www.zscaler.com/resources/brochures/zscaler-digital-transformation-admin-study-guide.pdf){ .md-button .md-button--primary }
+1. Logg inn i ZIA Admin.
+2. Gå til **Policy → Mobile → Zscaler Client Connector Portal**.
+3. Åpne **Administration → Client Connector App Store → New Releases → General Availability**.
+4. Velg ønsket versjon og last den ned.
 
+Kontroller instruksjonen mot Zscalers dokumentasjon dersom menystrukturen har endret seg.
 
-### Zscaler Access Portals:
+## Bytte mellom sluttbrukere
 
-[Landing Page](https://sdc.zslogin.net/portal){ .md-button .md-button--primary }
+Bruk et nytt inkognito- eller privat nettleservindu for hver sluttbrukerprofil. Det hindrer at informasjonskapsler og aktive sesjoner fra én bruker påvirker den neste testen.
 
-[ZPA Admin Portal](https://admin.private.zscaler.com/){ .md-button .md-button--primary }
+## Begrensninger og sikkerhet
 
-[ZIA Admin Portal](https://admin.zscalerthree.net/){ .md-button .md-button--primary }
+- Miljøet er tidsbegrenset til 30 dager om gangen.
+- Ikke del kontoene du mottar.
+- Unngå endringer som gjør demonstrasjonsmiljøet ubrukelig for senere øvelser.
+- Ikke bruk ekte kundedata eller annen sensitiv informasjon.
 
-[ZDX Admin Portal](https://admin.zdxcloud.net/zdx/login){ .md-button .md-button--primary }
+## Nyttige ressurser
 
-[Zscaler Deception Admin Portal](https://zerotrust.illusionblack.com/){ .md-button .md-button--primary }
+- [E-læringskurs for Solutions Demo Center](https://partneracademy.zscaler.com/zscaler-for-users-the-solutions-demo-center)
+- [Zscaler Help Portal](https://help.zscaler.com/)
+- [Guided Tour of the Solutions Demo Center](https://labguides.thezerotrustexchange.com/sdc-guided-tour/)
+- [Solutions Demo Center-katalog](https://catalog.thezerotrustexchange.com/)
+- [Studieveiledning for ZDTA](https://www.zscaler.com/resources/brochures/zscaler-digital-transformation-admin-study-guide.pdf)
 
-### User Portals:
-[Privileged Remote Access portal](https://ot.thezerotrustexchange.com/){ .md-button .md-button--primary }
+## Hjelp
 
-[Browser Based Access portal (clientless)](https://userportal.thezerotrustexchange.com/){ .md-button .md-button--primary }
-
-
-## To nyttige tips:
-
-### ⚠️ Tips 1: Slik laster du ned Client Connector
-
-Du må laste ned Client Connector-appen via ZIA-administrasjonsportalen:
-
-1. Logg inn på ZIA Admin Portal (se lenke over).
-2. Naviger til: Policy → Mobile → Zscaler Client Connector Portal.
-3. Deretter: Administration → Client Connector App Store → New Releases → General Availability.
-4. Velg ønsket versjon og last ned derfra.
-
-### ⚠️ Tips 2: Bruk alltid inkognito-fane
-
-For å kunne veksle mellom de ulike User Accounts(sluttbrukerprofilene) du har fått tildelt, må du alltid bruke en ny Incognito-fane (eller privat nettlesing) for hver nye bruker du logger inn som. Dette forhindrer at påloggingsinformasjon fra forrige bruker lagres.
+Bruk Zscalers partner- og hjelpeportaler ved problemer med selve demomiljøet. Generelle spørsmål og erfaringsdeling kan tas i `Lab`-kanalen i Teams.
