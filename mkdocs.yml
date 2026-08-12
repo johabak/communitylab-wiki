@@ -1,5 +1,6 @@
 theme:
   name: 'material'
+  language: nb
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -27,8 +28,12 @@ extra:
       link: https://github.com/johabak/communitylab-wiki/
 
 site_name: 'Community Network - Community Lab'
+site_url: 'https://communitylab.network/'
+repo_name: johabak/communitylab-wiki
+repo_url: https://github.com/johabak/communitylab-wiki/
 
 nav:
+  - Hjem: index.md
   - Informasjon om Community Lab:
     - Informasjon/info.md
     - Informasjon/status.md
@@ -43,7 +48,6 @@ nav:
     - Zscaler/zscaler_lab.md
   - Illumio:
     - Illumio/index.md
-    - Illumio/hjemmelab.md
 #  - Fortinet:
 #    - Fortinet/index.md
 #    - SD-WAN Lab:

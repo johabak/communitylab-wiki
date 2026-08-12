@@ -1,5 +1,3 @@
-version: '3.7'
-
 services:
   builder:
     image: squidfunk/mkdocs-material
@@ -10,8 +8,8 @@ services:
 
   communitylab_docs:
     image: nginx
-    restart: always
+    restart: unless-stopped
     ports:
       - 8001:80
     volumes:
-      - ./site:/usr/share/nginx/html
+      - ./site:/usr/share/nginx/html:ro

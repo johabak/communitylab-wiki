@@ -7,19 +7,19 @@ Her finner du litt teknisk informasjon om vår Community Lab!
 
 ## Hensikt
 
-Hensikten med Community Lab er å gjøre det mye enklere for alle våre konsulenter å ha tilgang til labmiljø for læring, POC og sertifiseringer. I tillegg prøver vi å holde liv i alle labmiljøene vi har satt opp i samarbeid med våre partnere som Fortigate og Aruba.
+Hensikten med Community Lab er å gjøre det mye enklere for alle våre konsulenter å ha tilgang til labmiljø for læring, POC-er og sertifiseringer. I tillegg prøver vi å holde liv i alle labmiljøene vi har satt opp i samarbeid med partnere som Fortinet og Aruba.
 
 
 ## Dagens løsning
-Vi har vært heldig å fått etablere dagens løsning i Sopra Stera sin TechEdge lab. Dette er en lab som er satt opp og driftes i Sopra Steria sine lokaler. Dette gjør at vi slipper "lokal"-drift hjemme. I TechEdge labben satt opp med Nutanix hypervisorer. Her har vi per nå to VM-er. En for CML-instansen og en linux server (webserver) for blant annet booking og denne wiki siden.
+Vi har fått etablert dagens løsning i Sopra Sterias TechEdge-lab. Laben er satt opp og driftes i Sopra Sterias lokaler, slik at vi slipper lokal drift hjemme. TechEdge-laben bruker Nutanix-hypervisorer. Her har vi per nå to VM-er: én for CML-instansen og én Linux-server for blant annet bookingløsningen og denne wikien.
 
-Cloudflare for å håndtere DNS og trafikkstyring og Zero Trust for å beskytte de interne appene slik at bare autoriserte brukere får tilgang.
+Cloudflare håndterer DNS og trafikkstyring. Cloudflare Zero Trust beskytter de interne applikasjonene slik at bare autoriserte brukere får tilgang.
 
 Vi ønsker å utvide tilbudet og trenger derfor innspill til hvilke tjenester det kan være nyttig å etablere!
 
 
-## HISTORIKK
-Community Lab startet som et prosjekt av tidligere Competancy Lead Christopher W. Tvedt. Den første utgaven av miljøet ble etablert i hans hjemmenett. Løsningen besto av en Intel NUC for å kjøre de forskjellig serverrollene og et sett med FortiGate 40F for VDOM og SD-WAN Lab Spoke.
+## Historikk
+Community Lab startet som et prosjekt av tidligere Competency Lead Christopher W. Tvedt. Den første utgaven av miljøet ble etablert i hans hjemmenett. Løsningen besto av en Intel NUC som kjørte de forskjellige serverrollene, og et sett med FortiGate 40F for VDOM og SD-WAN Lab Spoke.
 
 <figure markdown>
   ![Image title](../images/nuc.png){ width="500" }

@@ -13,7 +13,7 @@ Her kan du utforske plattformen i ditt eget tempo, uten risiko eller forpliktels
 1. Logg inn her: https://partners.zscaler.com/
 2. Gå til Demo, deretter Solutions Demo Center > Klikk Submit.
 3. Etter kort tid mottar du en e-post med instruksjoner og påloggingsinformasjon.
-4. E-posten vil inkludere credentials for Administrator-portalene og seks ulike sluttbrukerprofiler som du kan ...
+4. E-posten vil inkludere påloggingsinformasjon for administratorportalene og seks ulike sluttbrukerprofiler som kan brukes i demonstrasjonene.
 
 
 ## Nyttige lenker:
